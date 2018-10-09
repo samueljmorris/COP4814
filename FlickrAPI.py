@@ -28,10 +28,18 @@ def overwrite_file(data, file_name):
 
 # returns info about photo with ID photo_id
 def get_info(photo_id):
-
     url_comps = {"method_url": "flickr.photos.getInfo", "photo_id_url": photo_id}
-    url = generate_url(url_comps)
-    return requests.get(url).json()
+    return requests.get(generate_url(url_comps)).json()
+
+
+def get_all_contexts(photo_id):
+    url_comps = {"method_url": "flickr.photos.getAllContexts", "photo_id_url": photo_id}
+    return requests.get(generate_url(url_comps)).json()
+
+
+def get_context(photo_id):
+    url_comps = {"method_url": "flickr.photos.getContext", "photo_id_url": photo_id}
+    return requests.get(generate_url(url_comps)).json()
 
 
 # generates url for the API call
@@ -57,6 +65,6 @@ def generate_url(url_comps):
 
 update_file(get_info("15035657071"), "flickr_data.json")
 update_file(get_info("10072948716"), "flickr_data.json")
-
-
+update_file(get_context("10072948716"), "flickr_data.json")
+update_file(get_all_contexts("10072948716"), "flickr_data.json")
 
