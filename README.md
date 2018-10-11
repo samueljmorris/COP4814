@@ -1,6 +1,8 @@
-# COP4814
+# SnapShare
 
-Python Flickr API: https://stuvel.eu/flickrapi
+A web based photo application which can detect faces.
+
+Built using Flickr API, Flask, and Python.
 
 A brief tutorial on the basics of using Github:
 https://guides.github.com/activities/hello-world/
