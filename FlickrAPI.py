@@ -1,5 +1,6 @@
 import json
 import requests
+import flickrapi
 
 
 # returns the API or secret key
@@ -28,8 +29,8 @@ def overwrite_file(data, file_name):
 
 # returns info about photo with ID photo_id
 def get_info(photo_id):
-    url_comps = {"method_url": "flickr.photos.getInfo", "photo_id_url": photo_id}
-    return requests.get(generate_url(url_comps)).json()
+
+    return flickr.photos.getInfo(photo_id).json()
 
 
 def get_all_contexts(photo_id):
@@ -63,4 +64,4 @@ def generate_url(url_comps):
     return url
 
 
-
+flickr.photos.getInfo("31534768308")
