@@ -63,8 +63,4 @@ def generate_url(url_comps):
     return url
 
 
-update_file(get_info("15035657071"), "flickr_data.json")
-update_file(get_info("10072948716"), "flickr_data.json")
-update_file(get_context("10072948716"), "flickr_data.json")
-update_file(get_all_contexts("10072948716"), "flickr_data.json")
 
