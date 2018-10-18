@@ -48,7 +48,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FlickrAPI.py">
+        <entry file="file:$PROJECT_DIR$/../../../../..//$PROJECT_DIR$/FlickrAPI.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
@@ -73,11 +73,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="335" />
-    <option name="y" value="-23" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1273" />
+    <option name="width" value="1294" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -131,9 +130,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
@@ -181,7 +177,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/flickr_data.json">
+    <entry file="file:$PROJECT_DIR$/../../../../..//$PROJECT_DIR$/flickr_data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1836">
           <folding>
@@ -191,7 +187,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrAPI.py">
+    <entry file="file:$PROJECT_DIR$/../../../../..//$PROJECT_DIR$/FlickrAPI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
