@@ -18,6 +18,7 @@ logger.info("Application started")
 def initialize_api():
     sec_key = get_key("flickr_secret")
     api_key = get_key("flickr_key")
+    global flickr
     flickr = flickrapi.FlickrAPI(api_key, sec_key, format='parsed-json')
     flickr.authenticate_via_browser(perms='read')
     logger.info("API Initialized")
@@ -25,22 +26,29 @@ def initialize_api():
 
 # returns info for a specified photo_id
 def photo_info(pid_in):
-    return flickr_api.photos.getInfo(photo_id=pid_in)
+    return flickr.photos.getInfo(photo_id=pid_in)
 
 
 # uploads a photo
 def upload_photo():
     f_name = get_filename()
-    photo_id = flickr_api.photos.uploadPhoto(f_name)
+    photo_id = flickr.photos.uploadPhoto(f_name)
     return photo_id
 
 
 # returns the previous and next photos in a photo stream
-def get_context(photo_id):
-    return flickr_api.photos.getContext(photo_id=photo_id)
+def get_context(pid_in):
+    return flickr.photos.getContext(photo_id=pid_in)
 
 
+def download_photo(photo_id):
+    p_info = photo_info(photo_id=photo_id)
+    url = p_info['url']
+    print(url)
 
+
+initialize_api()
+photo_info('5457365307')
 
 
 
