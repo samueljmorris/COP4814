@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SnapShare", "SnapShare\SnapShare.pyproj", "{B3B249C9-FE88-402B-BBD6-A516BAE2455F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3B249C9-FE88-402B-BBD6-A516BAE2455F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B249C9-FE88-402B-BBD6-A516BAE2455F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B249C9-FE88-402B-BBD6-A516BAE2455F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B249C9-FE88-402B-BBD6-A516BAE2455F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {760B0563-2034-4B37-BC82-1B9D20A0A896}
+	EndGlobalSection
+EndGlobal
