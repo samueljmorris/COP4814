@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="658e0aad-cc4f-46ce-b62d-7048aed8669a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/snap_share.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnapShare.py" beforeDir="false" afterPath="$PROJECT_DIR$/SnapShare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlickrAPI.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnapShare.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,57 +19,79 @@
     <session id="-2019337627">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="json" value="1" />
-          <entry key="py" value="1" />
+          <entry key="log" value="3" />
+          <entry key="py" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="Python" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="25" />
+          <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="19" />
           <entry key="json" value="2" />
-          <entry key="py" value="177" />
+          <entry key="py" value="2209" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="2" />
-          <entry key="Python" value="177" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Python" value="2209" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="519673796">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="FlickrAPI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FlickrAPI.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+            <state relative-caret-position="1189">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
+                <marker date="1540448336516" expanded="true" signature="406:407" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SnapShare.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SnapShare.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/snap_share.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="1134">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
+                <marker date="1540448681251" expanded="true" signature="425:733" ph="..." />
+                <marker date="1540448681251" expanded="true" signature="1078:1138" ph="..." />
+                <marker date="1540448681251" expanded="true" signature="1139:1145" ph="..." />
               </folding>
             </state>
           </provider>
@@ -74,12 +99,23 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>flickr</find>
+      <find>token</find>
+      <find>photo_id_in</find>
+      <find>session</find>
+      <find>require</find>
+      <find>requir</find>
+      <find>requi</find>
+      <find>api_session</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>token</replace>
+      <replace>session</replace>
+      <replace>api_session</replace>
+      <replace>flickr_api</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -89,14 +125,20 @@
       <list>
         <option value="$PROJECT_DIR$/flickr_data.json" />
         <option value="$PROJECT_DIR$/FlickrAPI.py" />
+        <option value="$PROJECT_DIR$/Utility.py" />
         <option value="$PROJECT_DIR$/SnapShare.py" />
+        <option value="$PROJECT_DIR$/snapshare.py" />
+        <option value="$PROJECT_DIR$/SnapShare.log" />
+        <option value="$PROJECT_DIR$/util.py" />
+        <option value="$PROJECT_DIR$/snap_share.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1098" />
-    <option name="width" value="1469" />
-    <option name="height" value="1087" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-224" />
+    <option name="y" value="-14" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -109,7 +151,12 @@
           <expand>
             <path>
               <item name="COP4814" type="b2602c69:ProjectViewProjectNode" />
-              <item name="COP4814" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="COP4814" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
@@ -119,8 +166,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python-flickr-api" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.flickr/oauth-tokens.sqlite" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -134,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SnapShare">
+  <component name="RunManager" selected="Python.snap_share">
     <configuration name="FlickrAPI" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="COP4814" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,18 +190,63 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\mkmat\AppData\Local\Programs\Python\Python37\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FlickrAPI.py" />
+      <option name="SCRIPT_NAME" value="D:\OneDrive\School\Component-Based Software Development\Photo Project\COP4814\snap_share.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="SnapShare" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="snap_share" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="COP4814" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\mkmat\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/snap_share.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="snapshare" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="COP4814" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\mkmat\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\OneDrive\School\Component-Based Software Development\Photo Project\COP4814\snap_share.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="util" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="COP4814" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,19 +258,26 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SnapShare.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.FlickrAPI" />
-      <item itemvalue="Python.SnapShare" />
+      <item itemvalue="Python.snapshare" />
+      <item itemvalue="Python.snap_share" />
+      <item itemvalue="Python.util" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SnapShare" />
+        <item itemvalue="Python.snap_share" />
+        <item itemvalue="Python.util" />
+        <item itemvalue="Python.snapshare" />
         <item itemvalue="Python.FlickrAPI" />
       </list>
     </recent_temporary>
@@ -196,54 +296,155 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1098" y="0" width="1469" height="1087" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16930489" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32924336" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32924336" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09589041" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.21413721" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32952183" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.26715177" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/python-flickr-api" />
+    </ignored-roots>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file:U:/../..//U:/Documents/Programs/COP4814/FlickrAPI.py" />
-    <entry file="file:U:/../..//U:/Documents/Programs/COP4814/flickr_data.json" />
-    <entry file="file:U:/../..//U:/Documents/Programs/COP4814/FlickrAPI.py" />
-    <entry file="file://$PROJECT_DIR$/flickr_api_key.json">
+    <entry file="file://$PROJECT_DIR$/flickr_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1836" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Documents/python-flickr-api-master/python-flickr-api-master/flickr_api/_version.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Documents/python-flickr-api-master/python-flickr-api-master/flickr_api/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utility.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Documents/python-flickr-api-master/python-flickr-api-master/flickr_api/objects.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10080" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FlickrAPI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        <state relative-caret-position="272">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SnapShare.py">
+    <entry file="file://$PROJECT_DIR$/../../../../Documents/python-flickr-api-master/python-flickr-api-master/flickr_api/methods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="-12030" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Documents/python-flickr-api-master/python-flickr-api-master/flickr_api/upload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2030">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Documents/python-flickr-api-master/python-flickr-api-master/flickr_api/api.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Documents/python-flickr-api-master/python-flickr-api-master/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Documents/python-flickr-api-master/python-flickr-api-master/flickr_api/flickrerrors.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Documents/python-flickr-api-master/python-flickr-api-master/flickr_api/keys.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Documents/python-flickr-api-master/python-flickr-api-master/flickr_api/method_call.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1944">
+          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Documents/python-flickr-api-master/python-flickr-api-master/flickr_api/cache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Documents/python-flickr-api-master/python-flickr-api-master/flickr_api/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+          <folding>
+            <element signature="e#1099#1112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Documents/python-flickr-api-master/python-flickr-api-master/samples/download_album.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SnapShare.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1189">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <marker date="1540448336516" expanded="true" signature="406:407" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snap_share.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+            <marker date="1540448681251" expanded="true" signature="425:733" ph="..." />
+            <marker date="1540448681251" expanded="true" signature="1078:1138" ph="..." />
+            <marker date="1540448681251" expanded="true" signature="1139:1145" ph="..." />
           </folding>
         </state>
       </provider>
