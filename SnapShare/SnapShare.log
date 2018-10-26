@@ -145,3 +145,64 @@ INFO  |  2018-10-26 03:51:08,562  |  main  |  Attempting to upload file
 INFO  |  2018-10-26 03:54:25,331  |  main  |  Application started
 INFO  |  2018-10-26 03:54:25,706  |  main  |  API Initialized with XML
 INFO  |  2018-10-26 03:54:33,019  |  main  |  Attempting to upload file
+INFO  |  2018-10-26 15:43:48,418  |  util  |  util started
+INFO  |  2018-10-26 15:43:48,439  |  flickr  |  Helper started
+ERROR  |  2018-10-26 16:08:39,741  |  flickr  |  No filename provided to download_photo function
+ERROR  |  2018-10-26 16:09:24,304  |  flickr  |  No filename provided to download_photo function
+ERROR  |  2018-10-26 18:22:03,851  |  flickr  |  No filename provided to download_photo function
+ERROR  |  2018-10-26 18:22:41,241  |  flickr  |  No filename provided to download_photo function
+INFO  |  2018-10-26 18:23:27,833  |  util  |  util started
+ERROR  |  2018-10-26 18:25:25,523  |  flickr  |  No filename provided to download_photo function
+INFO  |  2018-10-26 18:27:05,394  |  util  |  util started
+INFO  |  2018-10-26 18:28:01,766  |  util  |  util started
+ERROR  |  2018-10-26 18:35:06,808  |  main  |  Test
+ERROR  |  2018-10-26 18:35:53,889  |  main  |  Test
+ERROR  |  2018-10-26 18:36:20,260  |  main  |  Test
+ERROR  |  2018-10-26 18:39:22,026  |  main  |  Test
+ERROR  |  2018-10-26 18:43:26,543  |  main  |  Test
+ERROR  |  2018-10-26 18:48:13,368  |  main  |  Application started
+ERROR  |  2018-10-26 18:48:42,436  |  main  |  Application started
+ERROR  |  2018-10-26 18:50:32,254  |  main  |  Application started
+ERROR  |  2018-10-26 18:53:53,168  |  main  |  Application started
+CRITICAL  |  2018-10-26 18:54:03,740  |  main  |  Application started
+INFO  |  2018-10-26 19:07:58,844  |  util  |  util started
+INFO  |  2018-10-26 19:07:58,844  |  __main__  |  Test
+INFO  |  2018-10-26 19:07:58,850  |  flickr  |  API Initialized with parsed-json
+INFO:2018-10-26 19:17:38,842:flickr_helper:API Initialized with parsed-json
+INFO:2018-10-26 19:18:20,365:util:Util started
+INFO:2018-10-26 19:18:20,365:__main__:Helper started
+INFO:2018-10-26 19:18:34,688:util:Util started
+INFO:2018-10-26 19:18:34,688:__main__:Helper started
+INFO:2018-10-26 19:20:37,142:util:Util started
+INFO:2018-10-26 19:20:37,143:flickr_helper:Helper started
+INFO:2018-10-26 19:20:37,143:__main__:Main started
+INFO:2018-10-26 19:20:37,149:flickr_helper:API Initialized with parsed-json
+INFO:2018-10-26 19:21:53,958:util:Util started
+INFO:2018-10-26 19:21:53,958:flickr_helper:Helper started
+INFO:2018-10-26 19:21:53,959:__main__:Main started
+INFO:2018-10-26 19:21:53,964:flickr_helper:API Initialized with parsed-json
+INFO:2018-10-26 19:22:04,982:util:Util started
+INFO:2018-10-26 19:22:04,982:flickr_helper:Helper started
+INFO:2018-10-26 19:22:04,983:__main__:Main started
+INFO:2018-10-26 19:22:04,988:flickr_helper:API Initialized with parsed-json
+INFO:2018-10-26 19:22:05,684:flickr_helper:Download function determined url = https://farm2.staticflickr.com/1936/44648763065_76d398fbf4_o.jpg
+INFO:2018-10-26 19:24:15,437:util:Util started
+INFO:2018-10-26 19:24:15,437:flickr_helper:Helper started
+INFO:2018-10-26 19:25:32,952:util:Util started
+INFO:2018-10-26 19:25:32,952:flickr_helper:Helper started
+INFO:2018-10-26 19:25:46,356:util:Util started
+INFO:2018-10-26 19:25:46,357:flickr_helper:Helper started
+INFO:2018-10-26 19:25:46,362:flickr_helper:API Initialized with parsed-json
+INFO:2018-10-26 19:26:31,725:util:Util started
+INFO:2018-10-26 19:26:31,726:flickr_helper:Helper started
+INFO:2018-10-26 19:26:31,731:flickr_helper:API Initialized with parsed-json
+INFO:2018-10-26 19:27:41,636:util:Util started
+INFO:2018-10-26 19:27:41,636:flickr_helper:Helper started
+INFO  |  2018-10-26 19:27:41,637  |  __main__  |  Main started
+INFO:2018-10-26 19:27:41,642:flickr_helper:API Initialized with parsed-json
+INFO  |  2018-10-26 19:30:28,023  |  util  |  Util started
+INFO  |  2018-10-26 19:30:28,024  |  __main__  |  Main started
+INFO  |  2018-10-26 19:30:28,029  |  flickr_helper  |  API Initialized with parsed-json
+INFO  |  2018-10-26 19:32:16,929  |  util  |  Util started
+INFO  |  2018-10-26 19:32:16,930  |  __main__  |  Main started
+INFO  |  2018-10-26 19:32:16,935  |  flickr_helper  |  API Initialized with parsed-json

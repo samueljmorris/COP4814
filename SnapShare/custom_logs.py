@@ -6,6 +6,7 @@ class CLog:
 
     def __init__(self, **kwargs):
 
+                self.test = "test"
                 if "module" in kwargs:
                     self.logger = logging.getLogger(kwargs["module"])
                 else:
@@ -16,10 +17,11 @@ class CLog:
                 else:
                     self.file = "log.txt"
 
-                logging.basicConfig(level=logging.INFO)
+                self.logger.setLevel("INFO")
                 self.log_handler = logging.FileHandler(self.file)
                 self.formatter = logging.Formatter("%(levelname)s  |  %(asctime)s  |  %(name)s  |  %(message)s")
                 self.log_handler.setFormatter(self.formatter)
                 self.logger.addHandler(self.log_handler)
+
 
 
