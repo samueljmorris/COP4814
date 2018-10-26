@@ -6,3 +6,142 @@ INFO  |  2018-10-25 21:04:25,055  |  main  |  Application started
 INFO  |  2018-10-25 21:04:25,397  |  main  |  API Initialized
 INFO  |  2018-10-25 21:04:27,712  |  util  |  User canceled save dialog
 ERROR  |  2018-10-25 21:04:27,712  |  main  |  No filename provided to download_photo function
+INFO  |  2018-10-25 21:21:47,210  |  main  |  Application started
+INFO  |  2018-10-25 21:21:47,631  |  main  |  API Initialized
+INFO  |  2018-10-25 21:22:54,161  |  main  |  Application started
+INFO  |  2018-10-25 21:22:54,554  |  main  |  API Initialized
+INFO  |  2018-10-25 21:26:45,749  |  main  |  Application started
+INFO  |  2018-10-25 21:26:46,119  |  main  |  API Initialized
+INFO  |  2018-10-25 21:30:47,539  |  main  |  Application started
+INFO  |  2018-10-25 21:30:47,925  |  main  |  API Initialized
+INFO  |  2018-10-25 21:30:54,070  |  main  |  Attempting to upload file
+INFO  |  2018-10-25 21:31:55,343  |  main  |  Application started
+INFO  |  2018-10-25 21:31:55,713  |  main  |  API Initialized
+INFO  |  2018-10-25 21:32:02,070  |  main  |  Attempting to upload file
+INFO  |  2018-10-25 21:34:27,976  |  main  |  Application started
+INFO  |  2018-10-25 21:34:28,313  |  main  |  API Initialized
+INFO  |  2018-10-25 21:34:36,663  |  main  |  Attempting to upload file
+INFO  |  2018-10-25 21:37:37,669  |  main  |  Application started
+INFO  |  2018-10-25 21:37:38,074  |  main  |  API Initialized
+INFO  |  2018-10-25 21:37:48,627  |  main  |  Attempting to upload file
+INFO  |  2018-10-25 21:39:12,342  |  main  |  Application started
+INFO  |  2018-10-25 21:39:12,654  |  main  |  API Initialized
+INFO  |  2018-10-25 21:39:21,976  |  main  |  Attempting to upload file
+INFO  |  2018-10-25 21:46:24,347  |  main  |  Application started
+INFO  |  2018-10-25 21:46:24,667  |  main  |  API Initialized
+INFO  |  2018-10-25 21:46:39,507  |  main  |  Attempting to upload file
+INFO  |  2018-10-25 21:57:39,073  |  main  |  Application started
+INFO  |  2018-10-25 21:57:39,439  |  main  |  API Initialized
+INFO  |  2018-10-25 22:13:27,171  |  main  |  Application started
+INFO  |  2018-10-25 22:13:27,531  |  main  |  API Initialized
+INFO  |  2018-10-25 22:13:51,451  |  main  |  Application started
+INFO  |  2018-10-25 22:16:20,192  |  main  |  API Initialized
+INFO  |  2018-10-25 22:20:32,017  |  main  |  Application started
+INFO  |  2018-10-25 22:20:32,431  |  main  |  API Initialized
+INFO  |  2018-10-25 22:21:05,651  |  main  |  Application started
+INFO  |  2018-10-25 22:21:06,180  |  main  |  API Initialized
+INFO  |  2018-10-25 22:21:19,593  |  main  |  Application started
+INFO  |  2018-10-25 22:21:39,366  |  main  |  API Initialized
+INFO  |  2018-10-25 22:23:37,173  |  main  |  Application started
+INFO  |  2018-10-25 22:23:48,199  |  main  |  Application started
+INFO  |  2018-10-25 22:25:04,414  |  main  |  Application started
+INFO  |  2018-10-25 22:25:12,630  |  main  |  API Initialized
+INFO  |  2018-10-25 22:31:27,701  |  main  |  Application started
+INFO  |  2018-10-25 22:31:28,076  |  main  |  API Initialized
+INFO  |  2018-10-25 22:41:02,061  |  main  |  Application started
+INFO  |  2018-10-25 22:41:22,423  |  main  |  API Initialized
+INFO  |  2018-10-25 22:44:03,893  |  main  |  Application started
+INFO  |  2018-10-25 22:44:08,491  |  main  |  API Initialized
+INFO  |  2018-10-25 22:44:31,953  |  main  |  Application started
+INFO  |  2018-10-25 22:45:20,859  |  main  |  Application started
+INFO  |  2018-10-25 22:55:26,634  |  main  |  Application started
+INFO  |  2018-10-25 23:22:15,256  |  main  |  API Initialized
+INFO  |  2018-10-25 23:23:23,124  |  main  |  Application started
+INFO  |  2018-10-25 23:24:43,147  |  main  |  Application started
+INFO  |  2018-10-25 23:29:37,615  |  main  |  Application started
+INFO  |  2018-10-25 23:30:41,802  |  main  |  Application started
+INFO  |  2018-10-25 23:33:22,824  |  main  |  Application started
+INFO  |  2018-10-25 23:37:44,756  |  main  |  Application started
+INFO  |  2018-10-25 23:37:45,161  |  main  |  API Initialized
+INFO  |  2018-10-25 23:38:19,057  |  main  |  Application started
+INFO  |  2018-10-25 23:38:30,834  |  main  |  API Initialized
+INFO  |  2018-10-25 23:39:06,535  |  main  |  Application started
+INFO  |  2018-10-25 23:39:47,887  |  main  |  Application started
+INFO  |  2018-10-25 23:40:10,068  |  main  |  Application started
+INFO  |  2018-10-25 23:40:55,036  |  main  |  Application started
+INFO  |  2018-10-25 23:48:09,583  |  main  |  Application started
+INFO  |  2018-10-25 23:48:13,207  |  main  |  API Initialized
+INFO  |  2018-10-25 23:49:57,881  |  main  |  Application started
+INFO  |  2018-10-25 23:50:14,120  |  main  |  Application started
+INFO  |  2018-10-25 23:54:27,623  |  main  |  API Initialized
+INFO  |  2018-10-25 23:55:03,260  |  main  |  Application started
+INFO  |  2018-10-26 00:25:55,256  |  main  |  Application started
+INFO  |  2018-10-26 00:44:21,445  |  main  |  Application started
+INFO  |  2018-10-26 00:45:48,897  |  main  |  Application started
+INFO  |  2018-10-26 00:49:19,239  |  main  |  Application started
+INFO  |  2018-10-26 01:06:45,986  |  main  |  Application started
+INFO  |  2018-10-26 01:06:49,796  |  main  |  API Initialized
+INFO  |  2018-10-26 01:07:48,492  |  main  |  Application started
+INFO  |  2018-10-26 01:07:48,861  |  main  |  API Initialized
+INFO  |  2018-10-26 01:08:10,024  |  main  |  Application started
+INFO  |  2018-10-26 01:08:10,409  |  main  |  API Initialized
+INFO  |  2018-10-26 01:09:49,077  |  main  |  Application started
+INFO  |  2018-10-26 01:09:49,463  |  main  |  API Initialized
+INFO  |  2018-10-26 01:13:53,159  |  main  |  Application started
+INFO  |  2018-10-26 01:13:53,519  |  main  |  API Initialized
+INFO  |  2018-10-26 01:14:06,179  |  main  |  Application started
+INFO  |  2018-10-26 01:14:06,632  |  main  |  API Initialized
+INFO  |  2018-10-26 01:15:09,665  |  main  |  Application started
+INFO  |  2018-10-26 01:15:10,103  |  main  |  API Initialized
+INFO  |  2018-10-26 01:15:20,140  |  main  |  Application started
+INFO  |  2018-10-26 01:15:20,561  |  main  |  API Initialized
+INFO  |  2018-10-26 01:15:37,822  |  main  |  Application started
+INFO  |  2018-10-26 01:16:17,277  |  main  |  API Initialized
+INFO  |  2018-10-26 01:16:39,198  |  main  |  Application started
+INFO  |  2018-10-26 01:17:57,899  |  main  |  Application started
+INFO  |  2018-10-26 01:19:56,827  |  main  |  Application started
+INFO  |  2018-10-26 01:24:43,488  |  main  |  Application started
+INFO  |  2018-10-26 01:25:28,365  |  main  |  Application started
+INFO  |  2018-10-26 01:29:21,457  |  main  |  Application started
+INFO  |  2018-10-26 01:29:21,832  |  main  |  API Initialized
+INFO  |  2018-10-26 01:29:26,852  |  main  |  Application started
+INFO  |  2018-10-26 01:32:34,774  |  main  |  Application started
+INFO  |  2018-10-26 01:41:21,641  |  main  |  Application started
+INFO  |  2018-10-26 01:41:51,751  |  main  |  Application started
+INFO  |  2018-10-26 01:43:48,104  |  main  |  Application started
+INFO  |  2018-10-26 01:48:55,327  |  main  |  Application started
+INFO  |  2018-10-26 01:55:11,390  |  main  |  Application started
+INFO  |  2018-10-26 03:09:07,388  |  main  |  Application started
+INFO  |  2018-10-26 03:09:11,907  |  main  |  API Initialized
+INFO  |  2018-10-26 03:13:16,819  |  main  |  Application started
+INFO  |  2018-10-26 03:13:17,241  |  main  |  API Initialized
+INFO  |  2018-10-26 03:13:22,971  |  main  |  Attempting to upload file
+INFO  |  2018-10-26 03:14:05,357  |  main  |  Application started
+INFO  |  2018-10-26 03:14:05,764  |  main  |  API Initialized
+INFO  |  2018-10-26 03:14:15,557  |  main  |  Attempting to upload file
+INFO  |  2018-10-26 03:16:33,397  |  main  |  Application started
+INFO  |  2018-10-26 03:16:33,929  |  main  |  API Initialized
+INFO  |  2018-10-26 03:16:55,633  |  main  |  Attempting to upload file
+INFO  |  2018-10-26 03:25:09,703  |  main  |  Application started
+INFO  |  2018-10-26 03:25:10,046  |  main  |  API Initialized
+INFO  |  2018-10-26 03:25:35,517  |  main  |  Attempting to upload file
+INFO  |  2018-10-26 03:27:26,329  |  main  |  Application started
+INFO  |  2018-10-26 03:27:26,829  |  main  |  API Initialized
+INFO  |  2018-10-26 03:27:40,729  |  main  |  Application started
+INFO  |  2018-10-26 03:27:41,057  |  main  |  API Initialized
+INFO  |  2018-10-26 03:28:42,210  |  main  |  Attempting to upload file
+INFO  |  2018-10-26 03:32:17,291  |  main  |  Application started
+INFO  |  2018-10-26 03:32:17,713  |  main  |  API Initialized with XML
+INFO  |  2018-10-26 03:32:31,791  |  main  |  Attempting to upload file
+INFO  |  2018-10-26 03:37:49,439  |  main  |  Application started
+INFO  |  2018-10-26 03:37:49,877  |  main  |  API Initialized with XML
+INFO  |  2018-10-26 03:38:08,215  |  main  |  Attempting to upload file
+INFO  |  2018-10-26 03:46:52,587  |  main  |  Application started
+INFO  |  2018-10-26 03:46:53,071  |  main  |  API Initialized with XML
+INFO  |  2018-10-26 03:47:06,738  |  main  |  Attempting to upload file
+INFO  |  2018-10-26 03:50:40,629  |  main  |  Application started
+INFO  |  2018-10-26 03:50:40,972  |  main  |  API Initialized with XML
+INFO  |  2018-10-26 03:51:08,562  |  main  |  Attempting to upload file
+INFO  |  2018-10-26 03:54:25,331  |  main  |  Application started
+INFO  |  2018-10-26 03:54:25,706  |  main  |  API Initialized with XML
+INFO  |  2018-10-26 03:54:33,019  |  main  |  Attempting to upload file

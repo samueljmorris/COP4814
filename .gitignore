@@ -261,3 +261,19 @@ __pycache__/
 *.pyc
 /.idea/
 .idea/workspace.xml
+SnapShare/.idea/workspace.xml
+API Source/__init__.py
+API Source/auth.py
+API Source/cache.py
+API Source/call_builder.py
+API Source/core.py
+API Source/exceptions.py
+API Source/html.py
+API Source/shorturl.py
+API Source/sockutil.py
+API Source/tokencache.py
+API Source/xmlnode.py
+SnapShare/.idea/workspace.xml
+SnapShare/.idea/workspace.xml
+SnapShare/.idea/workspace.xml
+SnapShare/__pycache__/custom_logs.cpython-37.pyc

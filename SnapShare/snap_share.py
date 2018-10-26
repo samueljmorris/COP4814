@@ -1,22 +1,40 @@
-import json
 import flickrapi
 import shutil
 from util import *
 import custom_logs as cl
-import os
 import requests
 log = cl.CLog(module="main", file="SnapShare.log")
 log.logger.info("Application started")
 
 
-# initializes a session object with anonymous user
-def initialize_api():
+# initializes an API helper object with raw JSON as response format
+def init_api_json():
     sec_key = get_key("flickr_secret")
     api_key = get_key("flickr_key")
     global flickr
-    flickr = flickrapi.FlickrAPI(api_key, sec_key, format="parsed-json")
-    flickr.authenticate_via_browser(perms="read")
-    log.logger.info("API Initialized")
+    flickr = flickrapi.FlickrAPI(api_key, sec_key, format="json", store_token="false")
+    flickr.authenticate_via_browser(perms="write")
+    log.logger.info("API Initialized with JSON")
+
+
+# initializes an API helper object with parsed JSON as response format
+def init_api_parsed():
+    sec_key = get_key("flickr_secret")
+    api_key = get_key("flickr_key")
+    global flickr
+    flickr = flickrapi.FlickrAPI(api_key, sec_key, format="parsed-json", store_token=True)
+    flickr.authenticate_via_browser(perms="write")
+    log.logger.info("API Initialized with parsed JSON")
+
+
+# initializes an API helper object with parsed REST as response format
+def init_api_rest():
+    sec_key = get_key("flickr_secret")
+    api_key = get_key("flickr_key")
+    global flickr
+    flickr = flickrapi.FlickrAPI(api_key, sec_key, format="rest", store_token=True)
+    flickr.authenticate_via_browser(perms="write")
+    log.logger.info("API Initialized with XML")
 
 
 # returns info for a specified photo_id
@@ -35,10 +53,18 @@ def get_sizes(pid_in):
 
 
 # uploads a photo
-def upload_photo():
-    f_name = get_filename()
-    photo_id = flickr.photos.uploadPhoto(f_name)
-    return photo_id
+def upload_photo(**kwargs):
+    init_api_rest()
+    file = get_filename()
+    params = {"filename=": file}
+
+    # TODO: Convert kwargs to string to pass optional parameters
+    if "tags" in kwargs:
+        for key, value in kwargs["tags"]:
+            tags = tags + value + " "
+        params["tags"] = tags
+    log.logger.info("Attempting to upload file")
+    flickr.upload(filename=file)
 
 
 # download photo with photo ID pid_in
@@ -58,12 +84,7 @@ def download_photo(pid_in, size):
     else:
         log.logger.error("No filename provided to download_photo function")
 
-    print(url)
 
-
-initialize_api()
-download_photo("5457365307", "Original")
-
-
+upload_photo()
 
 
