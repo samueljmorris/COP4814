@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/SnapShare.iml" filepath="$PROJECT_DIR$/.idea/SnapShare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/COP4814.iml" filepath="$PROJECT_DIR$/.idea/COP4814.iml" />
     </modules>
   </component>
 </project>
