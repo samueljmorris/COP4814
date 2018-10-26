@@ -1,0 +1,30 @@
+
+INFO  |  2018-10-25 18:51:08,491  |  util  |  User canceled open dialog
+INFO  |  2018-10-25 19:20:15,168  |  custom_logs  |  test
+INFO  |  2018-10-25 19:32:34,845  |  util  |  Test
+INFO  |  2018-10-25 19:32:53,758  |  util  |  Test
+INFO  |  2018-10-25 19:33:03,406  |  util  |  Test
+INFO  |  2018-10-25 19:33:20,421  |  util  |  Test
+INFO  |  2018-10-25 19:36:14,288  |  util  |  User canceled open dialog
+INFO  |  2018-10-25 19:36:14,288  |  main  |  Application started
+INFO  |  2018-10-25 19:49:25,038  |  util  |  User canceled open dialog
+INFO  |  2018-10-25 19:49:25,039  |  main  |  Application started
+INFO  |  2018-10-25 19:51:12,097  |  main  |  Application started
+INFO  |  2018-10-25 19:51:44,270  |  main  |  Application started
+INFO  |  2018-10-25 19:51:44,663  |  main  |  API Initialized
+INFO  |  2018-10-25 19:51:59,632  |  util  |  User canceled save dialog
+ERROR  |  2018-10-25 19:51:59,632  |  main  |  No filename provided to download_photo function
+INFO  |  2018-10-25 19:53:10,073  |  main  |  Application started
+INFO  |  2018-10-25 19:53:10,389  |  main  |  API Initialized
+INFO  |  2018-10-25 19:54:12,887  |  main  |  Application started
+INFO  |  2018-10-25 19:54:13,231  |  main  |  API Initialized
+INFO  |  2018-10-25 19:54:26,474  |  main  |  Application started
+INFO  |  2018-10-25 19:54:26,828  |  main  |  API Initialized
+INFO  |  2018-10-25 19:55:28,229  |  main  |  Application started
+INFO  |  2018-10-25 19:55:28,570  |  main  |  API Initialized
+INFO  |  2018-10-25 20:09:16,648  |  main  |  Application started
+INFO  |  2018-10-25 20:09:16,977  |  main  |  API Initialized
+INFO  |  2018-10-25 20:09:20,337  |  util  |  User canceled save dialog
+ERROR  |  2018-10-25 20:09:20,337  |  main  |  No filename provided to download_photo function
+INFO  |  2018-10-25 20:29:33,071  |  main  |  Application started
+INFO  |  2018-10-25 20:29:33,417  |  main  |  API Initialized
