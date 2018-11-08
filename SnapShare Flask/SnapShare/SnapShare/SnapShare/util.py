@@ -33,10 +33,10 @@ def overwrite_file_json(data, file_name):
 
 # prompts the user for a file
 def get_filename():
-    file_name = filedialog.askopenfilename(
-        initialdir="/",
-        title="Select file",
-        filetypes=(("jpeg", "*.jpg"), ("PNG", "*.png"), ("all files", "*.*")))
+    file_name = filedialog.askopenfilename()
+    initialdir="/",
+    title="Select file",
+    filetypes=(("jpeg", "*.jpg"), ("PNG", "*.png"), ("all files", "*.*"))
     if not file_name:    # user canceled
         log.logger.info("User canceled open dialog")
     else:
@@ -44,7 +44,7 @@ def get_filename():
 
 
 def set_filename():
-    file_name = dialogs.filename = filedialog.asksaveasfilename(
+    file_name = dialogs.filename = filedialog.logger.asksaveasfilename(
         initialdir="/",
         title="Select file",
         filetypes=(("jpeg", "*.jpg"), ("PNG", "*.png"), ("all files", "*.*")),

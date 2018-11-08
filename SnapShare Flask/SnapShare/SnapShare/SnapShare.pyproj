@@ -8,8 +8,7 @@
     <ProjectHome>.</ProjectHome>
     <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <StartupFile>runserver.py</StartupFile>
-    <SearchPath>
-    </SearchPath>
+    <SearchPath>SnapShare;SnapShare\static\content</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <LaunchProvider>Web launcher</LaunchProvider>
     <WebBrowserUrl>http://localhost</WebBrowserUrl>
@@ -28,6 +27,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="runserver.py" />
+    <Compile Include="SnapShare\custom_logs.py" />
+    <Compile Include="SnapShare\flickr_helper.py" />
+    <Compile Include="SnapShare\snap_share.py" />
+    <Compile Include="SnapShare\util.py" />
     <Compile Include="SnapShare\__init__.py" />
     <Compile Include="SnapShare\views.py" />
   </ItemGroup>
@@ -41,8 +44,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="SnapShare\favicon.ico">
+      <Publish>True</Publish>
+    </Content>
+    <Content Include="SnapShare\flickr_api_key.json">
+      <Publish>True</Publish>
+    </Content>
+    <Content Include="SnapShare\flickr_data.json">
+      <Publish>True</Publish>
+    </Content>
+    <Content Include="SnapShare\README.md" />
+    <Content Include="SnapShare\SnapShare.log" />
     <Content Include="SnapShare\static\content\bootstrap.css" />
     <Content Include="SnapShare\static\content\bootstrap.min.css" />
+    <Content Include="SnapShare\static\content\flickr_api_key.json" />
+    <Content Include="SnapShare\static\content\flickr_data.json" />
     <Content Include="SnapShare\static\content\site.css" />
     <Content Include="SnapShare\static\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="SnapShare\static\fonts\glyphicons-halflings-regular.svg" />
@@ -64,6 +80,7 @@
     <Content Include="SnapShare\static\scripts\respond.min.js" />
     <Content Include="SnapShare\static\scripts\_references.js" />
     <Content Include="SnapShare\templates\about.html" />
+    <Content Include="SnapShare\templates\confirmation.html" />
     <Content Include="SnapShare\templates\contact.html" />
     <Content Include="SnapShare\templates\index.html" />
     <Content Include="SnapShare\templates\layout.html" />

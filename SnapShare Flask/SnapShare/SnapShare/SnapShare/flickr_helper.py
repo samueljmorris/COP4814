@@ -2,6 +2,7 @@ import flickrapi
 import shutil
 from util import *
 import requests
+import os
 import custom_logs as cl
 log = cl.CLog(module=__name__, file="SnapShare.log")
 supported_formats = {"json", "parsed-json", "rest"}
@@ -10,9 +11,10 @@ supported_formats = {"json", "parsed-json", "rest"}
 class FlickrHelper:
 
             def __init__(self, *args):
-                api_key = get_key("flickr_key", "flickr_api_key.json")
-                sec_key = get_key("flickr_secret", "flickr_api_key.json")
-
+                #api_key = get_key("flickr_key", "flickr_api_key.json")
+                #sec_key = get_key("flickr_secret", "flickr_api_key.json")
+                api_key = "d56300690841797a756047b29d2d4d8d"
+                sec_key = "be76e6afd163ce18"
                 if args:
                     self.format = args[0]
                     if self.format not in supported_formats:
@@ -51,7 +53,7 @@ class FlickrHelper:
                     params["tags"] = tags
 
                 log.logger.info("Attempting to upload file")
-                return self.flickr.upload(filename=file)
+                self.flickr.upload(filename=file)
 
             # download photo with photo ID pid_in
             def download(self, pid_in, *args):
